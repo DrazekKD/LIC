@@ -1,0 +1,95 @@
+//You can assign to variables if they aren’t already assigned by adding the !default flag to the end of the value.
+// This means that if the variable has already been assigned to, it won’t be re-assigned, but if it doesn’t have a value yet, it will be given one.
+
+// FONTS
+// -----------------------
+@charset "UTF-8";
+
+$mainFontFamily: "Roboto", sans-serif !default;
+$fontSizeBody: 10px !default;
+$lineHeight: 1.8 !default;
+
+// RWD
+// -----------------------
+$breakpoints: (
+	'mobile-xs' : 320px,
+	'mobile-s' : 480px,
+	'mobile' : 768px,
+	'tablet-s' : 990px,
+	'tablet' : 1050px,
+	'desktop-s' : 1170px,
+	'desktop' : 1366px,
+) !default;
+
+// MAIN COLOR SETTINGS
+// -----------------------
+$primaryColor: red !default; // foreground color, buttons, active elements etc.
+$primaryAltColor: darken($primaryColor, 5%) !default; // foreground hover color, buttons hover, active elements etc.
+$secondaryColor: #eeeeee !default; // alternative foreground color, also buttons with lower priority
+$tertiaryColor: transparent !default;
+$dropDownColor: #e3e4e5 !default;
+
+// Backgrounds
+$primaryBackgroundColor: #fff !default;
+$secondaryBackgroundColor: #f9f9f9 !default;
+$tertiaryBackgroundColor: #f2f2f2 !default;
+$quaternaryBackgroundColor: #fff !default;
+$guideLineMarkerBackgroundColor: #777 !default;
+
+// Borders
+$primaryBorderColor: #e7e7e7 !default;
+$secondaryBorderColor: #d3d3d3 !default;
+$tertiaryBorderColor: #fff !default;
+$quaternaryBorderColor: #e7e7e7 !default;
+
+// Fonts
+$bodyFontColor: #666 !default; // body font color
+$primaryFontColor: #fff !default; // font color corresponding to $primaryColor
+$secondaryFontColor: #666 !default; // font color corresponding to $secondaryColor
+$tertiaryFontColor: #777 !default;
+$quaternaryFontColor: #777 !default;
+$warningFontColor: #de1d1d !default;
+
+// Tooltips
+$tooltipBgColor: #444444 !default;
+$tooltipFontColor: #bebebe !default;
+
+// Badges
+$badgeBgColor: #f3a433 !default;
+$badgeFontColor: #ffffff !default;
+$validationBoxErrorBgColor: #ffe1de !default;
+$validationBoxErrorDotColor: #f33333 !default;
+$validationBoxWarningDotColor: #f3a433 !default;
+
+// LayoutPreview
+$layoutSlotBgColor: #eeeeee !default;
+$layoutSlotHoverBgColor: #b7b7b7 !default;
+
+// WIDTHS
+// -----------------------
+$dropAreaPrimaryPartSize: 37.5%;
+$sideBarPanelHeadersWidth: 80px;
+$sideBarPanelWidth: $sideBarPanelHeadersWidth + 309px;
+$mainWrapperWidth: 1170px !default; // (Canvas_width )
+
+// Z-INDEX
+// -----------------------
+$dropAreaGroupZIndex: 5300;
+
+// ANIMATIONS
+// -----------------------
+$addPhotoPopupAnimationDelay: 0;
+
+//SPECIAL COLORS
+// -----------------------
+$facebookColor: #3b5998;
+
+//WARNINGS
+// -----------------------
+$warningColor: rgb(225, 211, 0) !default;
+$warningBorderColor: rgb(195, 181, 0) !default;
+$warningBoxShadowColor: rgba(225, 211, 0, 0.15) !default;
+
+$errorColor: rgb(222, 29, 29) !default;
+$errorBorderColor: rgb(192, 28, 28) !default;
+$errorBoxShadowColor: rgba(222, 29, 29, 0.15) !default;

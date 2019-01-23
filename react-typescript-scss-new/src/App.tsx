@@ -1,14 +1,12 @@
-import Button from '@material-ui/core/Button';
 import * as React from 'react';
 import './App.scss';
+import Navbar from "./dashboard/NavBar/Navbar";
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
-		  <Button variant="contained" color="primary">
-			  Hello World
-		  </Button>
-      </div>
+      	<Navbar/>
+	  </div>
     );
   }
 }
