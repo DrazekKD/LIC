@@ -1,8 +1,8 @@
 import * as React from 'react';
-import Logo from '../../img/logo-white.svg';
-import './Navbar.scss';
+import Logo from '../img/logo-white.svg';
+import './NavBar.scss';
 
-class Navbar extends React.Component {
+class NavBar extends React.Component {
 	public render() {
 		return (
 			<div className="Navbar-container">
@@ -24,4 +24,4 @@ class Navbar extends React.Component {
 	}
 }
 
-export default Navbar;
+export default NavBar;
