@@ -25,7 +25,10 @@ class ToDoList extends React.Component<IProps>{
 
 		return (
 			<div className="ToDoList">
-				{this.props.myTask.map(task => <li key={task.id}>{task.name}</li>)}
+				<div className="ToDoList-items">
+					{this.props.myTask.map(task =>
+						<li className="ToDoList-item" key={task.id}>{task.name}</li>)}
+				</div>
 			</div>
 		);
 	}

@@ -9,7 +9,17 @@ class App extends React.Component {
 		id: 'asd12',
 		isCompleted: false,
 		name:'a'
- 	}
+ 	},
+	 {
+		 id: 'assd12',
+		 isCompleted: false,
+		 name:'a'
+	 },
+	 {
+		 id: 'asd2',
+		 isCompleted: false,
+		 name:'a'
+	 }
  ];
 	public render() {
     return (
