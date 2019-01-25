@@ -16,6 +16,7 @@ class NavBar extends React.Component {
 							<li className="Navbar-menu-item">My Tasks</li>
 							<li className="Navbar-menu-item">Sign in</li>
 							<li className="Navbar-menu-item">Sign Out</li>
+							<li className="Navbar-menu-item outstandingColor">Registration</li>
 						</ul>
 					</nav>
 				</div>

@@ -1,3 +1,11 @@
 @import "./css/scss/utils/settings";
 .App {
+	min-height: 100vh;
+	max-height: 100vh;
+	background-color: $primaryColor;
+		.dashboard {
+			padding: 20px;
+			max-width: $maxWidthApp;
+			margin: 0 auto;
+		}
 }

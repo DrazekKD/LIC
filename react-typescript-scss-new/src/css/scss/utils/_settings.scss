@@ -24,7 +24,8 @@ $breakpoints: (
 // MAIN COLOR SETTINGS
 // -----------------------
 //Material UI Color from https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=212121&secondary.color=D81B60
-
+// Width app
+$maxWidthApp: 1170px;
 //Primary Color
 $primaryColor: #212121;
 $primaryColorDark: #000;
@@ -32,8 +33,8 @@ $primaryColorLight: #484848;
 
 //Secondary Color
 $secondaryColor: #d81b60;
-$secondaryColorDark: #ff5c8d;
-$secondaryColorLight: #a00037;
+$secondaryColorLight: #ff5c8d;
+$secondaryColorDark: #a00037;
 
 //Text Color
 $textColor: #fff

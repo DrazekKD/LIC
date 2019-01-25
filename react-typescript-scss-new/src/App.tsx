@@ -4,7 +4,13 @@ import ToDoList from "./dashboard/ToDoList/ToDoList";
 import NavBar from "./NavBar/NavBar";
 
 class App extends React.Component {
- public myTask = [{taskName:'a',id:'1'},{taskName:'b',id:'2'}];
+ public myTask = [
+ 	{
+		id: 'asd12',
+		isCompleted: false,
+		name:'a'
+ 	}
+ ];
 	public render() {
     return (
       <div className="App">

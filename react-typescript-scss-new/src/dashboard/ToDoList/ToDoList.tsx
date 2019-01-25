@@ -1,10 +1,14 @@
 import * as React from 'react';
 import './ToDoList.scss';
 
+interface ITask {
+	id:string
+	name:string
+	isCompleted: boolean
+}
 
 interface IProps {
-	[index: string]: {taskName: string;  id: string;};
-	// isCompleted: boolean
+	myTask: ITask[];
 }
 
 // interface IState {
@@ -16,11 +20,12 @@ class ToDoList extends React.Component<IProps>{
 	public constructor(props:IProps) {
 		super(props)
 	}
+
 	public render() {
+
 		return (
 			<div className="ToDoList">
-				{this.props.myTask}
-				{/*{this.props.tasks.map(task =><li key={task.id}>{task}</li>)}*/}
+				{this.props.myTask.map(task => <li key={task.id}>{task.name}</li>)}
 			</div>
 		);
 	}

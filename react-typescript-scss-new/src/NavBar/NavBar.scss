@@ -4,13 +4,13 @@
 @import "../css/scss/utils/settings";
 
 .Navbar-container {
-	background-color: $primaryColor;
+	background-color: $primaryColorDark;
 }
 .Navbar {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 1170px;
+	max-width: $maxWidthApp;
 	margin: 0 auto;
 	padding: 20px;
 	&-logo {
