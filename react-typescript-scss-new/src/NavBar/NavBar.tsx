@@ -1,4 +1,6 @@
 import * as React from 'react';
+// import {BrowserRouter as Router, Route} from 'react-router-dom';
+// import ToDoList from '../dashboard/ToDoList/ToDoList';
 import Logo from '../img/logo-white.svg';
 import './NavBar.scss';
 
